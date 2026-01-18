@@ -4,30 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoes</title>
-     <style>
-      .container {
-    background-color: lightpink;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap:5px;
-    padding: 5px;
+    <style>
+    body { 
+
+font-family: Arial, sans-serif; 
+margin: 0; 
+padding: 0; 
+background: white; 
+} 
+h1 { 
+text-align: center; 
+padding: 20px; 
+color: #333; 
+} 
+.product-grid { 
+display: grid; 
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+gap: 20px; 
+padding: 20px; 
+max-width: 1200px; 
+margin: auto;} 
+.float-menu a {
+    background-color: #e67e22;
+    color: black;
+    padding: 10px 15px;
     margin: 5px;
-  }
-  .h1 {
-    background-color: red;
-  }
-      
-     </style>
-    
+    text-decoration: none;}
+.product-card { 
+
+background:lightgray; 
+border: 1px solid #ddd; 
+border-radius: 10px; 
+padding: 15px; 
+text-align: center; 
+transition: transform 0.2s; 
+} 
+.product-card:hover { 
+transform: scale(1.05); 
+box-shadow: 0 4px 12px rgb(0, 8, 252); 
+} 
+.product-card img { 
+width: 100%; 
+height: 150px; 
+object-fit: cover; 
+border-radius: 8px; 
+} 
+
+.product-card p { 
+font-size: 14px; 
+color: #666; 
+} 
+.box1 { background-color: black; 
+color:white}
+.price { 
+font-size: 18px; 
+color: green; 
+font-weight: bold; 
+margin: 10px 0; 
+} 
+.container {
+        display: flex;
+        gap: 5px;
+        flex-direction: column-reverse;
+        background-color:black;
+        padding: 10px;
+        border: 1px solid #ccc;}
+.btn { 
+display: inline-block; 
+padding: 10px 15px; 
+margin-top: 10px; 
+background: #007bff; 
+color: #fff; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+text-decoration: none; 
+}.btn:hover { 
+background: #ff0000; 
+} 
+@media (max-width: 600px) { 
+.product-card img { 
+height: 150px; 
+}}
+    </style> 
 </head>
 <body>
-  <div class="container">
-        <div class="card">
-    <h1>All Shoes Brand</h1>
-    </div>
+  <center>
+    <h1><font color="black"><b><big><i><div class="box box1">VISHWA EDITION</div></i></big></b></font></h1>
     
-</body>
-</html>
+      </center>
+      <marquee scrollamount="35"><h1><font color="red"><big><b><i>Increase your drip with:</i><br><pre> <big><big><b><i>NIKE      PUMA      ADIDAS      ASICS</i></b></big></big></pre></b></big></font></h1></marquee>
+      <hr>
+      <br>
+       <div class="container">
+      <div class="product-grid"> 
+<div class="product-card"> 
+      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS_tlERhy-jFkX0ZWKDkApkLaV71ScSkf168LbyJdLztXOHDqYN5bkJCbltm8Dh1-JOcYXIGFLM3G7-jeDVEcoWBn_vBJ0LG1B_yY7L0p8-uDE52sgQuPfA6mw" height="250" width="150">
+      <a href="nike.html" class="btn">Enter</a>
+      </div> 
+<div class="product-card"> 
+  <img src="https://wallpapers.com/images/featured/puma-1bn2f1fusw26uqnr.jpg" height="250">
+  <a href="puma.html" class="btn">Enter</a> 
+      </div>
+<div class="product-card"> 
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW0e_n8bXOrncV_DNUCv0VjCjMWO905TDMWw&s" height="250">
+  <a href="adidas.html" class="btn">Enter</a>
+      </div>
+<div class="product-card"> 
+  <img src="https://images.financialexpressdigital.com/2025/05/asics.jpg?quality=100&w=440" alt="New Balance" height="250">
+   <a href="asics.html" class="btn">Enter</a> 
+   </div>
+      </div>
+      </div>
+      <br><hr><br>
+      <div class="float-menu">
+     <center> <a href="feedback.html"><font color="black">Feedback</font></a>&nbsp;|&nbsp;
+      <a href="contact.html"><font color="black">Contact</font></a></center></div>
+    </body>
+    </html>
