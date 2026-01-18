@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body { 
+font-family: Arial, sans-serif; 
+margin: 0; 
+padding: 0; 
+background-color: white; 
+} 
+h1 { 
+text-align: center; 
+padding: 20px; 
+color: #333; 
+} 
+.product-grid { 
+display: grid; 
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+gap: 20px; 
+padding: 20px; 
+max-width: 1200px; 
+margin: auto;} 
+.product-card { 
+
+background: lightgray; 
+border: 1px solid #ddd; 
+border-radius: 10px; 
+padding: 15px; 
+text-align: center; 
+transition: transform 0.2s; 
+} 
+.float-menu a {
+    float:center;
+    background-color: #e67e22;
+    color: black;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;}
+.product-card:hover { 
+transform: scale(1.05); 
+box-shadow: 0 4px 12px rgb(0, 8, 252); 
+} 
+.product-card img { 
+width: 100%; 
+height: 150px; 
+object-fit: cover; 
+border-radius: 8px; 
+} 
+.product-card h3 { 
+margin: 15px 0 10px; 
+font-size: 20px; 
+color: #333; 
+} 
+.product-card p { 
+font-size: 14px; 
+color: #666; 
+} 
+.price { 
+font-size: 18px; 
+color: green; 
+font-weight: bold; 
+margin: 10px 0; 
+} 
+.btn { 
+display: inline-block; 
+padding: 10px 15px; 
+margin-top: 10px; 
+background: #007bff; 
+color: #fff; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+text-decoration: none; 
+}.btn:hover { 
+background: #ff0000; 
+} 
+@media (max-width: 600px) { 
+.product-card img { 
+height: 150px; 
+}}
+    </style> 
+</head>
+<body>
+    <div class="float-menu">
+    <center>
+    <h1 text align="center"><font color="black"><big><i>Puma Shoes</i></big></font></h1>
+    <br>
+    <a href="website.html">Home</a>
+    </center>
+    </div>
+    <br> <br>
+    <hr>
+    <h1 text align="center"> <i>GO WILD.</i></h1>
+    <div class="product-grid"> 
+<div class="product-card"> 
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR2zc41-upuzN0G-j8biRX8If1gumjlDT1Awauu3ceq7DmINKEwQZ1fdLcxIjQpg7Qg24j6J1Q5APcDa5LShCnDPhUy6SGqTvpo8pHzA5WPY7miDnn0XzY6n_FqNzz2Te766_rjDQ&usqp=CAc" alt="">
+            <h4>PUMA Women's Mayze Lth Wn's Sneaker</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹15999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/313356/02/sv01/fnd/IND/fmt/png/MagMax-NITRO-Men's-Maximum-Cushioning-Running-Shoes" alt="">
+            <h4>MagMax NITRO Men's Maximum Cushioning Running Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹17,999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT0PhPNU5RsE_B2Zr8-9i4fpDE9Xf2sS9pU4-l-2XRqtafZfSK_iHWaG0Mpnp4hkPA_yLLGwHemxXObca0GA1iavxIzhj0oIDB9038w4Ym6BF6RCKvUqkHXCg" alt="" width="50">
+            <h4>Men Puma Softride Frequence Street Running Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹4995</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSrnLd8zRmiNW71TYPmFOf9XeCoIhirwl2e4cq_aFPG3FT3PsdMOMyIrZKDl5XPKJdv_XaZb-JiaLOgh1JJ-zEr7bMc9eUNpjfWXxtGw6e6s6l6xXzVsul5dNA" alt="">
+            <h4>Puma BMW MMS RS-X Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹10999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcREf9_Kcaa2Hvh2ERq_s_kxEfnrvl9BuQX-64AhTOL8UiqjhONy4ii_GU5_bOWIOB4bqBZODmZcu4M1D_OipfXJPGZ4anZicYEh9DqpqlfeWtlNnnbNE6jF0V8" alt="">
+            <h4>Puma Women's Cell Thrill Comfort Running Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹5499</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRE06oYJ8NAfQBfTkcGftuFG5xmtsU0WANiSH2NxE7DgRVGyyFfM5-4miFKBtS9WpseTN2fEadzI2ku_1xfk3Tt7_N9bwvFQ3kpk7JkOOKwTxaVmOKKBNIFng" alt="">
+            <h4>Puma Men's Swiftpulse Trainer Training Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹4995</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT4elTbTZVlcBDbggkQPG-1HFI2M6z4u1sHkkfQP2cuBdhxXLNLx72iAy_4j2EiasKCv9MkW6hJXqpWUzIifrGs4TaL6o5JYe4y9KZgQd1mx_xDoF0IV5Q3Iw" alt="">
+            <h4>Puma Slipstream Unisex Bball Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹7999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSH1WDax3rECxsYKAEYdOBbBI8ZiXlgNydyjm3erNsoF-mjdM5Qt2wdqJgEXEQPNyP_cUea4Pac0tYuggXOnKxtnhDb7XGRqMV3jV9K5WcrDAP2CPHNnXYYR3M" alt="">
+            <h4>Men Puma Softride Premier Ombre Running Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹8999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS0TBCnVlVPRyaZd79dicDv1se22kYv1lR3uKfgcxfwGj5FeTs5ob5aOhQ7VE9gCewIzbSjdKnyI0G8beyL3ms_sUWz61W2NLjP15tviWy8pmPD0bH44XuxJw8" alt="">
+            <h4>Puma Slipstream Bball Unisex Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹5999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQf00rvEzPgbc9-cceKMIkm7iJTPDZtpsNy2mQ2jZNouPMEeqGKEy5Bul5Ur0i6ouUwSHvEee130AHE5tAFYXEcKj8lPdnDNs45vqV73mMh9WFbTKFAH3BzFkY" alt="">
+            <h4>Puma Inhale Smile Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹15999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQs10PJy6qUDaTjjF0--shKeAzdqf2oOBmynLxVyAyQ_vsyToz3ye0ywUcVu59mXancK0y2ETjE3zQDCexXLwHlJgXmhstplRz_8SFy-kPTyJFxtdvw92YjJLU" alt="">
+            <h4>Puma Sports Shoes with Synthetic Upper For Men (White, 9)</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹13999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTEajwAuo4V3o6nwQqh9Vq0UJW9EFIjL6mI3gyyvFviqcFCSDRkVI5OrlqMwA60-zqbqsYPr_EfqdgaiA11y_H7RePlDpF0Ug" alt="">
+            <h4>Puma FUTURE RIDER PLAY ON Unisex Turquoise Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹8999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcREyLZeILwtJ3j6qXi2-VuwLuYUPytH-RyvA8YSb7Jw1RyIl7euOkzuxI78CphaYvtCBDdr7-Lz6pFTpI7UVPNoh6VHN-bj3PVMGmvyyD74PxLNq-l7bJ3n5wc" alt="">
+            <h4>Puma Men's MagMax NITRO Maximum Cushioning Running Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹17999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2vDGNubfA7XSQ4oY_pmjSTojtveIoe9-rCUeVVgExeetBmsE0Tn2tVGEQEvC_sRcJIolJXHh-_8o4dxPwhRh_cUG5I90OswU0ofwehSxFMfMMbLmn-Pecfg" alt="">
+            <h4>Puma Men Scorch Whizz Street Running Shoes For Men (Grey, 6) | Puma Men's Running Shoes For Gym and Workout</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹56999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR44eqckEW8Djx9cJ3EQQrQ62ggt1TF4wrkRrCxXJJPGrpPKd4qE9v34tCzOuT2WPOx1Ye1Un-0wNsDXa5HPWTuhrgOsu1fbjLPvHS1FWd_IPrqrN5RaU8WxKg" alt="">
+            <h4>Puma Speedcat Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹9999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT_q9HN8jRAxmdecCz33r4O1znKrlytAFF4cLicha2niyoJ0w6PMUET9HSAnRF2-kORoqnHwCFvJwRMvEZ5x-J-PsDlXURdspa6l5vdUdncreZFfZJoWWRV8Q" alt="">
+            <h4>Puma BMW M Drift Cat 8 White Motorsport Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹7999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/51hDx1X1T0L.jpg" alt="">
+            <h4>Puma Unisex Adult RSZ Sneaker</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹4995</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQjBGRt9o4EkhQx4uVTwmmFv6B2iqJALVTicXshdzNu6jkUflJfvSM5NO9s2MHtRGszwuRw8JdmSHHjFnMg75edMCabQCa-xA" alt="">
+            <h4>Puma Trinity Mid Hybrid Men Beige Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹5440</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSAO0JOeHrC02hCROPe3UmY9_qT8CKrfdiOm9txytXNryv2C8Bvo2zkcRulFUHai8OrWnIBriH0OnLLX8cNSvoThRfrRfXBu3vvpNs-Nu3v2i2lzfHV_jxvBg" alt="">
+            <h4>Puma Men's Foam Stride Blue Running Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹4995</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTGEmYckbgGqirT_qywM-VlrlfzI3FMKFjp5iVbEHtuQS_HrFgxjGtcn9n7qLysMxQVguAtEIEmgPqE8Wt-B1HvcLWB8pgg3A" alt="">
+            <h4>Puma Slipstream Hi Heritage Res Unisex White Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹11999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    </div>
+    </body>
+    </html>
