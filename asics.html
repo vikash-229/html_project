@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+    body { 
+font-family: Arial, sans-serif; 
+margin: 0; 
+padding: 0; 
+background:white; 
+} 
+h1 { 
+text-align: center; 
+padding: 20px; 
+color: #333; 
+} 
+.product-grid { 
+display: grid; 
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+gap: 20px; 
+padding: 20px; 
+max-width: 1200px; 
+margin: auto;} 
+.product-card { 
+
+background: lightgray; 
+border: 1px solid #ddd; 
+border-radius: 10px; 
+padding: 15px; 
+text-align: center; 
+transition: transform 0.2s; 
+} 
+.product-card:hover { 
+transform: scale(1.05); 
+box-shadow: 0 4px 12px rgb(0, 8, 252); 
+} 
+.product-card img { 
+width: 100%; 
+height: 150px; 
+object-fit: cover; 
+border-radius: 8px; 
+} 
+.float-menu a {
+    float:center;
+    background-color: #e67e22;
+    color: black;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;}
+.product-card h3 { 
+margin: 15px 0 10px; 
+font-size: 20px; 
+color: #333; 
+} 
+.product-card p { 
+font-size: 14px; 
+color: #666; 
+} 
+.price { 
+font-size: 18px; 
+color: green; 
+font-weight: bold; 
+margin: 10px 0; 
+} 
+.btn { 
+display: inline-block; 
+padding: 10px 15px; 
+margin-top: 10px; 
+background: #007bff; 
+color: #fff; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+text-decoration: none; 
+}.btn:hover { 
+background: #ff0000; 
+} 
+@media (max-width: 600px) { 
+.product-card img { 
+height: 150px; 
+}}
+    </style> 
+</head>
+<body> <div class="float-menu">
+    <center>
+    <h1 text align="center"><font color="black"><big><i>Asics Shoes</i></big></font></h1>
+    <br>
+    <a href="website.html">Home</a>
+    </center>
+    </div>
+    <br><br>
+    <hr>
+    <h1 text align="center"> <i>A sound mind is a sound body.</i></h1>
+        <div class="product-grid">
+      <div class="product-card"> 
+        <img src="https://img.tatacliq.com/images/i10/1348Wx2000H/MP000000017363414_1348Wx2000H_202304261713171.jpeg" alt="" height="500" width="300">
+            <h4>Asics Men's Fuzor B Blue Running Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹4995</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTfLtrqKwCqalbXZapgwHd3483FOuFeJ5Fx10Kpxj5gBaU6Z84mPOy-nr6rKhbeyRoWTHbcfFu2fpCqIpLKQIMVCaDgC0OhCkj0GdRBlClF8ChszNivqpCs" alt="" height="400" width="300">
+            <h4>Asics Gel-venture 9 Running Shoes For Men</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹5995</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSeqXdSZFfAqXyUkaq7_UlWbKRAJT0blZ20hyUJhW7Vq-xu2y_isoJ--8uwUZWC2SJrRE5BxiYc9uIcf_2o_GW4F48pe5CN69gMQJ-q154lZdyF_BVbfN0Z7A" alt="" height="400" width="400">
+            <h4>Asics Men's GEL-CONTEND 9 Grey Running Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹5999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQcb4HwRXkM049tLKUwYAASdolzWBbuS8JFphb_crVHz6Ir_7r0DABzftPxR4X1c15IatzqhtU12z0NJXk4NXdzC5ynlJj2l-y7W1wAuQ5Gi5lqo1QjsR-HXg" alt="" height="400" width="300">
+            <h4>ASICS GEL-NYC</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹13999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQIArZptvT5DC61g6d1w2zgNHklBBzRPNF2-HK8IG7uvOXhbppqH_BBqwsj1HD0pD4vAme1cUNv9eUs29SeZrIv9aiikAshGb59xV1lZPA3yIjB5UynYwNCJw" alt="" height="400" width="300">
+            <h4>ASICS Gel-Cumulus 26 Running Shoes For Men</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹5995</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQrv8Gg6TZrU2OvkMYzaw0HipTmrd_5ELbvV0QBzO0Q1RpwTJTUXpj6lWcgg7jrTraQuytCLc028-chJfxkr_rtXhx00f81CHo9XXQc7WWO-OM9qyFXpp4HwQ" alt="" height="400" width="300">
+            <h4>ASICS GEL-1130 Unisex White & Silver Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹8999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS8qjCGg0lyhuMRbUFV4ThDFVcRu93n3m_ljRNJZU-o-NwH8xRw9v4PE2R0qmi8n7CwcklMiPA6YdwUnwWYyRVL808g1erJcdWE1k_cooJ1sSpvLd1_4EH3ug" alt="" height="400" width="300">
+            <h4>ASICS SKYHAND OG Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹8999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSD4gtClP9NmHrXvtCDt2ePI8rk0oREhQL8gTvqWD6aZlGcGuHckcvE3e3l-lGhO0CQWksnl8s89qOTFA1hG3NtZVhAJrRn-wGMGyP94q4GX-T24Vg6gMay" alt="" height="400" width="300">
+            <h4>ASICS GEL-Quantum Lyte II Grey Men Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹4999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSBFgeHj2XlBOcr6tmEKy1Y8TL8AnbUXt_5VWo4TwTd4dUOki7RUDxuU--WKIj6RbW0uC40QwMagNNuz3rhSDVDbK1yDAg6YWr095rFdaVKciZtbIob4Jtc" alt="" height="400" width="300">
+            <h4>Asics Noosa Tri 16 Running Shoes For Men</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹11999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQrMeUtZgPUMjNQYM8KSdDyTqJ1hToDJ6nIs0k7-o9t7JSO-MwUg3EWhUwgiPwJGYdpeEDF4sljYUHKtV29Z66uIe2Yz1SiE2N9uMjFIXIi6lEuh8DPcxa_" alt="">
+            <h4>ASICS GEL-Quantum 180 VII Grey & Green Women Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹5550</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSc_Utjzn9DRGPPK8xmHN-bIx4VbILCDmFH7b-y97M9lF3f8f4JgetH7uh7L624qTRQMRcel6BxWAIejje9Kly62Sdpa42xOT7K3_Ro3r0M6WP43RN4rcg8" alt="">
+            <h4>ASICS Gel-Lyte V Dark Neptune-Sand Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹7200</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQt348Lg044tBPOoPEN-pPasla_LCvDnfYCnJzmW2ZkLLEAPj11nH2d0l2zW9o1P34lf425Tr4Hv0dyWxlJbdsst8lBQnN7IcJLNt_m8GzBt12RoaBd53Axxw" alt="">
+            <h4>ASICS Gel-Quantum 180 Vii Black Mens Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹5999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSv1xaCrT0R4ROecS5YY8KA7CmTELEBO_IYhsA3fDAyweHfBuwTojI5djq--ngT44pFizz7pY4LKvZ9f_5bTAk_OvY5hDP3uZ3U8f1r4zJjBTbQr2Z97lBwQw" alt="">
+            <h4>ASICS GEL-Quantum Lyte II Black Women Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹4999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS8gdxPHn_livzd8doGnWXpc4nP2zEL1XXGf8QTRkNYvpEVF60pqYQ9-835EMpSBVfjlNybuv01LQmahK8a4SWBwKokv3p3FKaJDdq4PzPsso2KDt8EPRuIOQ" alt="" height="400" width="300">
+            <h4>Buy White Pure Silver Asics GT-2160 Shoes for Men Online | Superkicks 5.5</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹7999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div> <div class="product-card"> 
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ0qFLH1xHlRm_F2G_iYFs4h_OUikBMnzdMYsBK0pnNl5Sq2aXdzC6IUjBWq7oFfl-T1aJxkvPbsNtCX-_Ro5F8LEJWaKzsT9HAWqm0lZyhkyhe9rp2CWuPfg" alt="">
+            <h4>ASICS Men Gel-Cumulus 26 Bright Running Shoes</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹7200</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRF7oZWH-eDJT_8UVXS7nuQecWryKC8XZaDwpiIiGfGoqoAItin4pOzW_LAnmAu0qXFZAodu0130Ra6ckLtZN2IzYJU4VUHeTYoF-VK20JRMO4ncXNEB6ZImA" alt="" height="400" width="300">
+            <h4>NOVABLAST 5 LITE-SHOW</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹14999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRKWKCWx9JEJFi2Gyvysnnkn-BOzDmPjWpCEQe7O129f3Lmd2wzkPhEPE_IMhIJMd3uRls6Hr1akfrRswf8ygRMhwAcsPkdtggb39RawvVfJXA6VthZeoyNtg" alt="" height="400" width="300">
+            <h4>ASICS Gel-Lyte III Sean Wotherspoon x atmos MULTICOLOR / UK 7 Sneaker</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹23999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTfsIsKoLwQe9ljC0sTd0zEf1eF8sbOaWG2fmaVzQ9k184JXGGvpmc-Owt4h0F-xs-Ovrdu6JU6lXvziWav_XJBZ9K5NZO9C89yJwiF7chlGOpOdJJWAn3XoA" alt="" height="400" width="300">
+            <h4>Asics Gel-Lyte III OG</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹2999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQxMEKxNCD_au-cLu-tt5FLHaukCDNhK_SSt7dTsCCTR7YyVVmWo_6a9ZT9hpZOJAUazW4u_paYPYmVbO35INJMrrJdhXbXjw_EMupm3X8wN1Q2r-k_WuEsdA" alt="" height="400" width="300">
+            <h4>asics india GEL-CUMULUS 27 TOKYO</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹12999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+     <div class="product-card"> 
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTz6FEzYWhPd3ULZ3wJfm7c0OTVaFccq7M3LHP_49_KsbxRj-Tzzeb7ZPZDwgj4MXfBlrTYNWCh0gswA-AkQ7r-Cu6GiJfZWKObQTvIUcn0ykQbAumDgwHD" alt="">
+            <h4>ASICS SKYHAND OG Unisex Beige Sneakers</h4>
+            <p>Size-6,7,8,9,10,11</p>
+            <div class="price">₹9999</div> 
+    <a href="#" class="btn">Buy Now</a>
+    </div>
+    </div>
+    </body>
+    </html
